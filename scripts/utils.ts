@@ -25,9 +25,8 @@ export const getPackageInfo = () => {
   const pkgDir = resolve(__dirname, '..')
   const pkgPath = resolve(__dirname, '../package.json')
 
-  if (!existsSync(pkgPath)) {
+  if (!existsSync(pkgPath))
     throw new Error('package.json not found')
-  }
 
   // const pkg: {
   //   name: string
@@ -42,9 +41,8 @@ export const getPackageInfo = () => {
 
   const currentVersion = pkg.version
 
-  if (pkg.private) {
+  if (pkg.private)
     throw new Error('Package is private')
-  }
 
   return {
     pkg,
