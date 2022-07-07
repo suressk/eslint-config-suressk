@@ -1,3 +1,19 @@
-# sure-lint
+# eslint-config-suressk
 
-It's just a example project of Lint and Commit-msg specification
+Own Eslint config
+
+# Usage
+
+- Install
+
+```bash
+npm i eslint-config-suressk
+```
+
+- Config in `.eslintrc`
+
+```json
+{
+  "extends": "suressk"
+}
+```

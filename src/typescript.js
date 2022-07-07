@@ -28,7 +28,7 @@ module.exports = {
     // Override JS
     'no-unused-vars': 'off',
     'no-useless-constructor': 'off',
-    indent: 'off',
+    'indent': 'off',
     '@typescript-eslint/indent': ['error', 2, {
       SwitchCase: 1,
       VariableDeclarator: 1,
@@ -77,9 +77,9 @@ module.exports = {
     '@typescript-eslint/comma-dangle': ['error', 'never'],
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
-    semi: 'off',
+    'semi': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
-    quotes: 'off',
+    'quotes': 'off',
     '@typescript-eslint/quotes': ['error', 'single'],
     'space-before-blocks': 'off',
     '@typescript-eslint/space-before-blocks': ['error', 'always'],

@@ -1,10 +1,18 @@
 {
-  "name": "sure-eslint",
-  "version": "0.0.1",
+  "name": "eslint-config-suressk",
+  "version": "0.0.1-alpha.0",
   "packageManager": "pnpm@7.5.0",
   "description": "",
-  "author": "K. <sure_ssk@outlook.com> (https://github.com/suressk)",
+  "author": {
+    "name": "suressk",
+    "email": "sure_ssk@outlook.com",
+    "url": "https://npmjs.com/packages/eslint-config-suressk"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/suressk/eslint-config-suressk",
+  "bugs": {
+    "url": "https://github.com/suressk/eslint-config-suressk/issues"
+  },
   "keywords": [
     "eslint",
     "eslint-config",
