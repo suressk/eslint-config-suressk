@@ -7,7 +7,7 @@ Own Eslint config
 - Install
 
 ```bash
-npm i eslint-config-suressk
+npm i eslint-config-suressk -D
 ```
 
 - Config in `.eslintrc`
