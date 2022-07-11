@@ -36,16 +36,13 @@ async function main(): Promise<void> {
     }
   }
 
-  if (!semver.valid(targetVersion))
-    throw new Error(`invalid target version: ${targetVersion}`)
+  if (!semver.valid(targetVersion)) { throw new Error(`invalid target version: ${targetVersion}`) }
 
   const tag = `v${targetVersion}`
 
-  if (targetVersion.includes('beta') && !args.tag)
-    args.tag = 'beta'
+  if (targetVersion.includes('beta') && !args.tag) { args.tag = 'beta' }
 
-  if (targetVersion.includes('alpha') && !args.tag)
-    args.tag = 'alpha'
+  if (targetVersion.includes('alpha') && !args.tag) { args.tag = 'alpha' }
 
   const { confirmRelease }: { confirmRelease: boolean } = await prompts({
     type: 'confirm',
@@ -53,8 +50,7 @@ async function main(): Promise<void> {
     message: `Releasing ${colors.yellow(tag)} Confirm?`
   })
 
-  if (!confirmRelease)
-    return
+  if (!confirmRelease) { return }
 
   // release a version must to update version
   // const { confirmToUpdateVersion }: { confirmToUpdateVersion: boolean } =
