@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-suressk",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.2",
   "packageManager": "pnpm@7.5.0",
   "description": "",
   "author": {
