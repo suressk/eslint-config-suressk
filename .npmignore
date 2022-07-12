@@ -5,6 +5,7 @@ test
 __test__
 
 # lint config
-# husky
-# scripts
+.husky
+scripts
 
+LICENSE

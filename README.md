@@ -1,6 +1,6 @@
 # eslint-config-suressk
 
-Own Eslint config
+Custom Eslint config (`suressk`)
 
 # Usage
 
@@ -15,5 +15,22 @@ npm i eslint-config-suressk -D
 ```json
 {
   "extends": "suressk"
+}
+```
+
+- In VSCode, install `Eslint` plugin
+- use Eslint to format code when file on save
+- and add `.vscode/settings.json` file
+
+```json
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "markdown",
+    "typescript",
+    "yaml"
+  ],
+  "prettier.enable": false
 }
 ```
