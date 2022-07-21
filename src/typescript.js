@@ -22,8 +22,17 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
-    // '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    /* '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }], */
     '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-this-alias': [
+      'error',
+      {
+        /*  Disallow `const { props, state } = this` */
+        allowDestructuring: false,
+        /* Allow alias `this` with `self`/`that`/`context`/`ctx`, such as `const self = this` */
+        allowedNames: ['self', 'that', 'context', 'ctx']
+      }
+    ],
 
     // Override JS
     'no-unused-vars': 'off',
