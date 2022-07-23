@@ -33,6 +33,7 @@ specifiers:
   semver: ^7.3.7
   ts-node: ^10.8.1
   typescript: ^4.7.4
+  vue-eslint-parser: ^9.0.3
   yaml-eslint-parser: ^1.0.1
 
 dependencies:
@@ -51,6 +52,7 @@ dependencies:
   eslint-plugin-vue: 9.2.0_eslint@8.18.0
   eslint-plugin-yml: 1.0.0_eslint@8.18.0
   jsonc-eslint-parser: 2.1.0
+  vue-eslint-parser: 9.0.3_eslint@8.18.0
   yaml-eslint-parser: 1.0.1
 
 devDependencies:

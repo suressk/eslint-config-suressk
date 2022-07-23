@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-suressk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@7.5.0",
   "description": "",
   "author": {
@@ -46,6 +46,7 @@
     "eslint-plugin-vue": "^9.0.1",
     "eslint-plugin-yml": "^1.0.0",
     "jsonc-eslint-parser": "^2.1.0",
+    "vue-eslint-parser": "^9.0.3",
     "yaml-eslint-parser": "^1.0.1"
   },
   "devDependencies": {
@@ -75,7 +76,7 @@
   },
   "lint-staged": {
     "*": [
-      "eslint . --fix"
+      "eslint --fix"
     ]
   }
 }

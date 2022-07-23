@@ -1,3 +1,8 @@
+## <small>0.1.2 (2022-07-23)</small>
+
+
+
+
 # [0.1.0](https://github.com/suressk/eslint-config-suressk/compare/v0.0.2...v0.1.0) (2022-07-12)
 
 
