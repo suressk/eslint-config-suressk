@@ -12,3 +12,9 @@ LICENSE
 
 .vscode
 src
+
+.eslintrc
+tsconfig.*
+pnpm-lock.yaml
+
+CHANGELOG.md
