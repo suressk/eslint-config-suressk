@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "preserve",
+    "useDefineForClassFields": false,
+    /* Modules */
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    /* JavaScript Support */
+    "allowJs": false,
+    /* Emit */
+    "sourceMap": false,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "**/dist",
+    "node_modules"
+  ],
+  "include": [
+    "./src/*"
+  ]
+}
